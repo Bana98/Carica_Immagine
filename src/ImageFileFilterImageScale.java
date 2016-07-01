@@ -25,9 +25,10 @@ public class ImageFileFilterImageScale extends JFrame implements ActionListener
 
 	public ImageFileFilterImageScale() //costruttore
 	{
-		this.setSize(300, 300);
+		this.setSize(320, 320);
 		this.setLocation(300, 300);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setTitle("SPONGI");
 
 		JPanel picPanel = new PicturePanel();  //creazione picture panel (istanza della classe sotto)
 		this.add(picPanel, BorderLayout.CENTER);  //aggiunge al frame il picture panel. Usa il BorderLayout (io ho sempre usato il FormatLayout, lo creo io il Layout)
